@@ -7,7 +7,7 @@ Call this to get the Data:
 ```
 MyData.getStudentList()
 ```
-To populate data to NSTableView, we need to implement the NSTableViewDataSource protocol and implement the following 2 method:
+To populate data to NSTableView, we need to implement the NSTableViewDataSource protocol and implement the following 2 methods:
 ```
 func numberOfRows(in tableView: NSTableView) -> Int
 
