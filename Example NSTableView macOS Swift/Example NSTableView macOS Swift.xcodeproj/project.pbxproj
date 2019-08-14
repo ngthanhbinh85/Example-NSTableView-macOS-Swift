@@ -1,0 +1,340 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0B8D4D3023046BFF00DE087D /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0B8D4D2F23046BFF00DE087D /* AppDelegate.swift */; };
+		0B8D4D3223046BFF00DE087D /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0B8D4D3123046BFF00DE087D /* ViewController.swift */; };
+		0B8D4D3423046C0000DE087D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0B8D4D3323046C0000DE087D /* Assets.xcassets */; };
+		0B8D4D3723046C0000DE087D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0B8D4D3523046C0000DE087D /* Main.storyboard */; };
+		0B8D4D402304712E00DE087D /* Student.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0B8D4D3F2304712E00DE087D /* Student.swift */; };
+		0B8D4D42230471CC00DE087D /* MyData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0B8D4D41230471CC00DE087D /* MyData.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		0B8D4D2C23046BFF00DE087D /* Example NSTableView macOS Swift.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Example NSTableView macOS Swift.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		0B8D4D2F23046BFF00DE087D /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		0B8D4D3123046BFF00DE087D /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		0B8D4D3323046C0000DE087D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		0B8D4D3623046C0000DE087D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		0B8D4D3823046C0000DE087D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0B8D4D3923046C0000DE087D /* Example_NSTableView_macOS_Swift.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = Example_NSTableView_macOS_Swift.entitlements; sourceTree = "<group>"; };
+		0B8D4D3F2304712E00DE087D /* Student.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Student.swift; sourceTree = "<group>"; };
+		0B8D4D41230471CC00DE087D /* MyData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyData.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		0B8D4D2923046BFF00DE087D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0B8D4D2323046BFF00DE087D = {
+			isa = PBXGroup;
+			children = (
+				0B8D4D2E23046BFF00DE087D /* Example NSTableView macOS Swift */,
+				0B8D4D2D23046BFF00DE087D /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		0B8D4D2D23046BFF00DE087D /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				0B8D4D2C23046BFF00DE087D /* Example NSTableView macOS Swift.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		0B8D4D2E23046BFF00DE087D /* Example NSTableView macOS Swift */ = {
+			isa = PBXGroup;
+			children = (
+				0B8D4D2F23046BFF00DE087D /* AppDelegate.swift */,
+				0B8D4D3123046BFF00DE087D /* ViewController.swift */,
+				0B8D4D3323046C0000DE087D /* Assets.xcassets */,
+				0B8D4D3523046C0000DE087D /* Main.storyboard */,
+				0B8D4D3823046C0000DE087D /* Info.plist */,
+				0B8D4D3923046C0000DE087D /* Example_NSTableView_macOS_Swift.entitlements */,
+				0B8D4D3F2304712E00DE087D /* Student.swift */,
+				0B8D4D41230471CC00DE087D /* MyData.swift */,
+			);
+			path = "Example NSTableView macOS Swift";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		0B8D4D2B23046BFF00DE087D /* Example NSTableView macOS Swift */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0B8D4D3C23046C0000DE087D /* Build configuration list for PBXNativeTarget "Example NSTableView macOS Swift" */;
+			buildPhases = (
+				0B8D4D2823046BFF00DE087D /* Sources */,
+				0B8D4D2923046BFF00DE087D /* Frameworks */,
+				0B8D4D2A23046BFF00DE087D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Example NSTableView macOS Swift";
+			productName = "Example NSTableView macOS Swift";
+			productReference = 0B8D4D2C23046BFF00DE087D /* Example NSTableView macOS Swift.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		0B8D4D2423046BFF00DE087D /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1030;
+				LastUpgradeCheck = 1030;
+				ORGANIZATIONNAME = "Bình Nguyễn";
+				TargetAttributes = {
+					0B8D4D2B23046BFF00DE087D = {
+						CreatedOnToolsVersion = 10.3;
+					};
+				};
+			};
+			buildConfigurationList = 0B8D4D2723046BFF00DE087D /* Build configuration list for PBXProject "Example NSTableView macOS Swift" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 0B8D4D2323046BFF00DE087D;
+			productRefGroup = 0B8D4D2D23046BFF00DE087D /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				0B8D4D2B23046BFF00DE087D /* Example NSTableView macOS Swift */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		0B8D4D2A23046BFF00DE087D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0B8D4D3423046C0000DE087D /* Assets.xcassets in Resources */,
+				0B8D4D3723046C0000DE087D /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		0B8D4D2823046BFF00DE087D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0B8D4D3223046BFF00DE087D /* ViewController.swift in Sources */,
+				0B8D4D42230471CC00DE087D /* MyData.swift in Sources */,
+				0B8D4D402304712E00DE087D /* Student.swift in Sources */,
+				0B8D4D3023046BFF00DE087D /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		0B8D4D3523046C0000DE087D /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				0B8D4D3623046C0000DE087D /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		0B8D4D3A23046C0000DE087D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "Mac Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.14;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		0B8D4D3B23046C0000DE087D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "Mac Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.14;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = macosx;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+			};
+			name = Release;
+		};
+		0B8D4D3D23046C0000DE087D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = "Example NSTableView macOS Swift/Example_NSTableView_macOS_Swift.entitlements";
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = DURJ82KKMZ;
+				INFOPLIST_FILE = "Example NSTableView macOS Swift/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.ngthanhbinh.Example-NSTableView-macOS-Swift";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		0B8D4D3E23046C0000DE087D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = "Example NSTableView macOS Swift/Example_NSTableView_macOS_Swift.entitlements";
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = DURJ82KKMZ;
+				INFOPLIST_FILE = "Example NSTableView macOS Swift/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.ngthanhbinh.Example-NSTableView-macOS-Swift";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		0B8D4D2723046BFF00DE087D /* Build configuration list for PBXProject "Example NSTableView macOS Swift" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0B8D4D3A23046C0000DE087D /* Debug */,
+				0B8D4D3B23046C0000DE087D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		0B8D4D3C23046C0000DE087D /* Build configuration list for PBXNativeTarget "Example NSTableView macOS Swift" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0B8D4D3D23046C0000DE087D /* Debug */,
+				0B8D4D3E23046C0000DE087D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 0B8D4D2423046BFF00DE087D /* Project object */;
+}
